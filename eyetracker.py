@@ -12,8 +12,9 @@ while True:
 
     faces = detector(gray)
     for face in faces:
-        print (face)
-
+      
+       print (face)
+       
     cv2.imshow("Frame", frame)
 # if you press s, you will break the loop
     key = cv2.waitKey(1)
